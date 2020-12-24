@@ -1,0 +1,61 @@
+.game-container {
+  align-items: center;
+  flex-direction: column;
+  display: flex;
+}
+
+.game-board {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.row0 > div,
+.row1 > div,
+.row2 > div {
+  border: 1px solid black;
+
+  height: 125px;
+  width: 125px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.row0 > div > p,
+.row1 > div > p,
+.row2 > div > p {
+  font-size: 6rem;
+  margin: 0;
+  width: 100%;
+  height: 100%;
+
+  background-color: lightgray;
+  color: firebrick;
+
+  display: flex;
+  justify-content: center;
+}
+
+.row0 > div > p:hover,
+.row1 > div > p:hover,
+.row2 > div > p:hover {
+  cursor: pointer;
+  background-color: firebrick;
+  color: lightgray;
+}
+
+.start-button {
+  margin-top: 2rem;
+  font-size: 2rem;
+  border-color: black;
+  border-radius: 5rem;
+  background-color: lightgray;
+  color: firebrick;
+}
+
+.start-button:hover {
+  color: lightgray;
+  background-color: firebrick;
+  cursor: pointer;
+}

@@ -1,3 +1,10 @@
+# About This Project
+
+Hello! My name is Parker Gore and this is my first coding challenge for a job I have applied to.
+
+Objective:
+Create a Tic-Tac-Toe Game where the user plays against a computer, however it is impossible for the user to ever win.
+
 # TicTacToe
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.0.5.
