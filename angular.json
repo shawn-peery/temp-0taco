@@ -120,5 +120,8 @@
       }
     }
   },
-  "defaultProject": "Tic-Tac-Toe"
+  "defaultProject": "Tic-Tac-Toe",
+  "cli": {
+    "analytics": "6f3e2da0-c7dd-4676-9f30-f202402e746c"
+  }
 }
