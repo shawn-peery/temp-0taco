@@ -9,37 +9,28 @@
   flex-wrap: wrap;
 }
 
-.row0 > div,
-.row1 > div,
-.row2 > div {
+.square {
   border: 1px solid black;
+
+  background-color: lightgray;
 
   height: 125px;
   width: 125px;
+
+  font-size: 6rem;
+  margin: 0;
 
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.row0 > div > p,
-.row1 > div > p,
-.row2 > div > p {
-  font-size: 6rem;
-  margin: 0;
-  width: 100%;
-  height: 100%;
-
+.marked {
   background-color: lightgray;
   color: firebrick;
-
-  display: flex;
-  justify-content: center;
 }
 
-.row0 > div > p:hover,
-.row1 > div > p:hover,
-.row2 > div > p:hover {
+.unmarked:hover {
   cursor: pointer;
   background-color: firebrick;
   color: lightgray;
